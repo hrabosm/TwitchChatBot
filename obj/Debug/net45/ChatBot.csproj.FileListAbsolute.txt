@@ -1,0 +1,10 @@
+C:\Users\hrabo\Desktop\ChatBot\bin\Debug\net45\ChatBot.runtimeconfig.json
+C:\Users\hrabo\Desktop\ChatBot\bin\Debug\net45\ChatBot.runtimeconfig.dev.json
+C:\Users\hrabo\Desktop\ChatBot\bin\Debug\net45\ChatBot.exe
+C:\Users\hrabo\Desktop\ChatBot\bin\Debug\net45\ChatBot.pdb
+C:\Users\hrabo\Desktop\ChatBot\bin\Debug\net45\Newtonsoft.Json.dll
+C:\Users\hrabo\Desktop\ChatBot\bin\Debug\net45\TwitchLib.dll
+C:\Users\hrabo\Desktop\ChatBot\bin\Debug\net45\websocket-sharp.dll
+C:\Users\hrabo\Desktop\ChatBot\obj\Debug\net45\ChatBot.AssemblyInfo.cs
+C:\Users\hrabo\Desktop\ChatBot\obj\Debug\net45\ChatBot.exe
+C:\Users\hrabo\Desktop\ChatBot\obj\Debug\net45\ChatBot.pdb

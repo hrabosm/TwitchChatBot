@@ -1,0 +1,241 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenTK/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "SharpCanvas/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenTk": "2.0.0"
+        },
+        "compile": {
+          "lib/net461/SharpCanvas.exe": {}
+        },
+        "runtime": {
+          "lib/net461/SharpCanvas.exe": {}
+        }
+      },
+      "TwitchLib/1.5.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "7.0.1",
+          "WebSocketSharp-NonPreRelease": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/TwitchLib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/TwitchLib.dll": {}
+        }
+      },
+      "WebSocketSharp-NonPreRelease/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/websocket-sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net35/websocket-sharp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win7-x86": {
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenTK/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "SharpCanvas/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenTk": "2.0.0"
+        },
+        "compile": {
+          "lib/net461/SharpCanvas.exe": {}
+        },
+        "runtime": {
+          "lib/net461/SharpCanvas.exe": {}
+        }
+      },
+      "TwitchLib/1.5.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "7.0.1",
+          "WebSocketSharp-NonPreRelease": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/TwitchLib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/TwitchLib.dll": {}
+        }
+      },
+      "WebSocketSharp-NonPreRelease/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/websocket-sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net35/websocket-sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/7.0.1": {
+      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "type": "package",
+      "path": "newtonsoft.json/7.0.1",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "newtonsoft.json.7.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "OpenTK/2.0.0": {
+      "sha512": "jMPeuMzw5B+5NJshyaCfnUfPnLgPDZTQ0lHF+4I6i3P5rJqPAMAdWFEYKGlpbnHzUGA0rL1uvQBUa3VnuV4mUA==",
+      "type": "package",
+      "path": "opentk/2.0.0",
+      "files": [
+        "content/OpenTK.dll.config",
+        "lib/net20/OpenTK.dll",
+        "lib/net20/OpenTK.xml",
+        "opentk.2.0.0.nupkg.sha512",
+        "opentk.nuspec"
+      ]
+    },
+    "SharpCanvas/1.2.0": {
+      "sha512": "oYqVAWH+fDMJyHCO6wob1ro/X6fBaPzjKO55WYGDwL7271yFqkTGKDQGNECn55C7LQv4uMWeJ/YvrEePEWT3/w==",
+      "type": "package",
+      "path": "sharpcanvas/1.2.0",
+      "files": [
+        "lib/net461/SharpCanvas.exe",
+        "lib/net461/SharpCanvas.runtimeconfig.json",
+        "sharpcanvas.1.2.0.nupkg.sha512",
+        "sharpcanvas.nuspec"
+      ]
+    },
+    "TwitchLib/1.5.3": {
+      "sha512": "JnyWVEw5rT194yFkL1OBADNjwtE1bsh/xkd/moHdox7N+Izq20tvBdg/53Ie3n+TbzIC0Jh8uzaPcOWFGeGO6w==",
+      "type": "package",
+      "path": "twitchlib/1.5.3",
+      "files": [
+        "TwitchLib.XML",
+        "lib/net45/TwitchLib.XML",
+        "lib/net45/TwitchLib.dll",
+        "twitchlib.1.5.3.nupkg.sha512",
+        "twitchlib.nuspec"
+      ]
+    },
+    "WebSocketSharp-NonPreRelease/1.0.0": {
+      "sha512": "O1TLFp8hwgVFEI0bjAGLAdsGwtT+yggdRYAlOSw+ZCtwHVc5LmUBU52H+KgG37med9e11lsxmlNzzlF6/hW+Bg==",
+      "type": "package",
+      "path": "websocketsharp-nonprerelease/1.0.0",
+      "files": [
+        "lib/net35/websocket-sharp.dll",
+        "websocketsharp-nonprerelease.1.0.0.nupkg.sha512",
+        "websocketsharp-nonprerelease.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Newtonsoft.Json >= 7.0.1",
+      "SharpCanvas >= 1.2.0",
+      "TwitchLib >= 1.5.3",
+      "WebSocketSharp-NonPreRelease >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hrabo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hrabo\\Desktop\\ChatBot-v1.1\\ChatBot.csproj",
+      "projectName": "ChatBot",
+      "projectPath": "C:\\Users\\hrabo\\Desktop\\ChatBot-v1.1\\ChatBot.csproj",
+      "outputPath": "C:\\Users\\hrabo\\Desktop\\ChatBot-v1.1\\obj\\",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "files": {
+        "lib/net461/ChatBot.dll": "C:\\Users\\hrabo\\Desktop\\ChatBot-v1.1\\bin\\placeholder\\net461\\ChatBot.dll"
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "SharpCanvas": {
+            "target": "Package",
+            "version": "1.2.0"
+          },
+          "WebSocketSharp-NonPreRelease": {
+            "target": "Package",
+            "version": "1.0.0"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "7.0.1"
+          },
+          "TwitchLib": {
+            "target": "Package",
+            "version": "1.5.3"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
